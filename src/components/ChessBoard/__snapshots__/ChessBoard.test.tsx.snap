@@ -2,263 +2,583 @@
 
 exports[`Snapshot 1`] = `
 <div
-  style="background-color:red;width:calc(min(90vh, 90vw));height:calc(min(90vh, 90vw));display:grid;grid-template-columns:repeat(8, 1fr)"
+  class="Wrapper"
 >
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    r
+    <img
+      class="PieceImg"
+      src="black-rook.png"
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    n
+    <img
+      class="PieceImg"
+      src="black-knight.png"
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    b
+    <img
+      class="PieceImg"
+      src="black-bishop.png"
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    q
+    <img
+      class="PieceImg"
+      src="black-queen.png"
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    k
+    <img
+      class="PieceImg"
+      src="black-king.png"
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    b
+    <img
+      class="PieceImg"
+      src="black-bishop.png"
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    n
+    <img
+      class="PieceImg"
+      src="black-knight.png"
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    r
+    <img
+      class="PieceImg"
+      src="black-rook.png"
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    p
+    <img
+      class="PieceImg"
+      src="black-pawn.png"
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    p
+    <img
+      class="PieceImg"
+      src="black-pawn.png"
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    p
+    <img
+      class="PieceImg"
+      src="black-pawn.png"
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    p
+    <img
+      class="PieceImg"
+      src="black-pawn.png"
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    p
+    <img
+      class="PieceImg"
+      src="black-pawn.png"
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    p
+    <img
+      class="PieceImg"
+      src="black-pawn.png"
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    p
+    <img
+      class="PieceImg"
+      src="black-pawn.png"
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    p
+    <img
+      class="PieceImg"
+      src="black-pawn.png"
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:green;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
-  />
-  <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    P
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    P
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    P
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    P
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    P
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    P
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    P
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    P
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    R
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    N
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    B
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    Q
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    K
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    B
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:green;height:100%;width:100%"
+    class="Square"
+    style="background-color:green"
   >
-    N
+    <img
+      class="PieceImg"
+      src=""
+    />
   </div>
   <div
-    style="background-color:white;height:100%;width:100%"
+    class="Square"
+    style="background-color:white"
   >
-    R
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src=""
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src="white-pawn.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src="white-pawn.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src="white-pawn.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src="white-pawn.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src="white-pawn.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src="white-pawn.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src="white-pawn.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src="white-pawn.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src="white-rook.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src="white-knight.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src="white-bishop.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src="white-queen.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src="white-king.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src="white-bishop.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:green"
+  >
+    <img
+      class="PieceImg"
+      src="white-knight.png"
+    />
+  </div>
+  <div
+    class="Square"
+    style="background-color:white"
+  >
+    <img
+      class="PieceImg"
+      src="white-rook.png"
+    />
   </div>
 </div>
 `;
