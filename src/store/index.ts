@@ -15,6 +15,7 @@ import { testApi } from "./test/api";
 const persistConfig = {
   key: "root",
   storage,
+  blacklist: [],
 };
 
 const rootReducer = combineReducers({
