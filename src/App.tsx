@@ -1,21 +1,14 @@
-import { useGetTestQuery } from "./store/test/api";
-import { TestData } from "./store/test/types";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
 
 function App(): JSX.Element {
-  const { data, isError, isLoading } = useGetTestQuery(null);
-
-  let response: TestData[] | undefined;  
-  if (!isError && !isLoading && data !== undefined) {
-    response = data.response
-  }
 
   return (
-    <div>
-      <h1>Chess 2 Babay</h1>
-      <p>
-        {JSON.stringify(response)}
-      </p>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element = {<Home />} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 

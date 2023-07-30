@@ -1,0 +1,1 @@
+- installing of enzyme-adapter-react-16

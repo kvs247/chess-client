@@ -1,0 +1,17 @@
+.Square {
+  height: 100%;
+  width: 100%;
+}
+
+.Wrapper {
+  height: calc(min(90vh, 90vw));
+  width: calc(min(90vh, 90vw));
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.PieceImg {
+  max-width: 100%;
+  max-height: 100%;
+}
