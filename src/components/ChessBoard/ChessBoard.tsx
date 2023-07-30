@@ -1,5 +1,7 @@
 import { FC } from "react";
-import { fenToPiecesArray } from "../../helpers/fenHelper";
+import { fenToPiecesArray } from "../../helpers/fenHelper/fenHelper";
+import piecePngs from "../../helpers/piecePngs";
+import styles from "./styles.module.scss";
 
 const lightSquare = "white";
 const darkSquare = "green";
@@ -15,39 +17,30 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
   const squares = [];
   for (let i = 0; i < 64; i++) {
     const row = Math.floor(i / 8);
-    const color = (
+
+    const backgroundColor = (
       (((row % 2 === 0) && (i % 2 === 0)) ||
         ((row % 2 === 1) && (i % 2) === 1)) 
           ? lightSquare : darkSquare
     );
 
+    const pieceType = piecesArray[i];
+    const png = piecePngs[pieceType] ?? "";
+
     squares.push(
       <div
-        key={i}
-        style={{
-          backgroundColor: color,
-          height: "100%",
-          width: "100%",
-        }}
+        key={ i }
+        className={ styles.Square }
+        style={{ backgroundColor }}
       >
-        {piecesArray[i] ?? ""}
+        <img src={ png } className={ styles.PieceImg } />
       </div>
     );
 
   }
 
   return (
-    <div
-      style={{
-        backgroundColor: "red",
-        width: "calc(min(90vh, 90vw))",
-        height: "calc(min(90vh, 90vw))",
-        display: "grid",
-        gridTemplateColumns: "repeat(8, 1fr)",
-        // gridTemplateRows: "repeat(8, 1fr)",
-        // position: "relative",
-      }}
-    >
+    <div className={styles.Wrapper}>
       {squares}
     </div>
   );

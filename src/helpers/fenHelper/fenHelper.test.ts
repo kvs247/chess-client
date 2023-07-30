@@ -1,4 +1,4 @@
-import startingFEN from "../startingFEN";
+import startingFEN from "../../startingFEN";
 import { isNumeric, parseFEN, fenToPiecesArray } from "./fenHelper";
 
 

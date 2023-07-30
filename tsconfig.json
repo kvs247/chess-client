@@ -2,9 +2,10 @@
     "compilerOptions": {
         "jsx": "react-jsx",
         "target": "es2015",
-        "moduleResolution": "node",
         "esModuleInterop": true,
         "allowJs": true,
-        "module": "esnext"
+        "module": "esnext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true
     }
 }
