@@ -1,6 +1,9 @@
 import { FC } from "react";
 import { useGetTestQuery } from "../../store/test/api";
 import { TestData } from "../../store/test/types";
+import ChessBoard from "../../components/ChessBoard/ChessBoard";
+
+const startingFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
 
 const Home: FC = () => {
   const { data, isError, isLoading } = useGetTestQuery(null);
@@ -16,6 +19,9 @@ const Home: FC = () => {
       <p>
         {JSON.stringify(response)}
       </p>
+      <ChessBoard 
+        fen={startingFEN}
+      />
     </div>
   );
 };

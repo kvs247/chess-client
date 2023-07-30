@@ -1,0 +1,2 @@
+- installing of enzyme-adapter-react-16
+- use of styles.module.scss
