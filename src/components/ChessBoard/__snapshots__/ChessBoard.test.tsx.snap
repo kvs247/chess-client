@@ -3,14 +3,18 @@
 exports[`Snapshot 1`] = `
 <div
   class="Wrapper"
+  id="board-wrapper"
 >
   <div
     class="Square"
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-rook.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -18,8 +22,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-knight.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -27,8 +34,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-bishop.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -36,8 +46,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-queen.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -45,8 +58,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-king.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -54,8 +70,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-bishop.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -63,8 +82,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-knight.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -72,8 +94,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-rook.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -81,8 +106,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -90,8 +118,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -99,8 +130,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -108,8 +142,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -117,8 +154,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -126,8 +166,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -135,8 +178,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -144,8 +190,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="black-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -153,8 +202,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -162,8 +214,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -171,8 +226,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -180,8 +238,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -189,8 +250,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -198,8 +262,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -207,8 +274,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -216,8 +286,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -225,8 +298,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -234,8 +310,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -243,8 +322,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -252,8 +334,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -261,8 +346,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -270,8 +358,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -279,8 +370,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -288,8 +382,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -297,8 +394,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -306,8 +406,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -315,8 +418,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -324,8 +430,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -333,8 +442,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -342,8 +454,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -351,8 +466,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -360,8 +478,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -369,8 +490,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -378,8 +502,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -387,8 +514,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -396,8 +526,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -405,8 +538,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -414,8 +550,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -423,8 +562,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -432,8 +574,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src=""
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -441,8 +586,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -450,8 +598,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -459,8 +610,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -468,8 +622,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -477,8 +634,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -486,8 +646,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -495,8 +658,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -504,8 +670,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-pawn.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -513,8 +682,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-rook.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -522,8 +694,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-knight.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -531,8 +706,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-bishop.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -540,8 +718,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-queen.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -549,8 +730,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-king.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -558,8 +742,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-bishop.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -567,8 +754,11 @@ exports[`Snapshot 1`] = `
     style="background-color:green"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-knight.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
   <div
@@ -576,8 +766,11 @@ exports[`Snapshot 1`] = `
     style="background-color:white"
   >
     <img
-      class="PieceImg"
+      alt=""
+      class="PieceImg react-draggable"
+      draggable="false"
       src="white-rook.png"
+      style="transform:translate(0px,0px)"
     />
   </div>
 </div>
