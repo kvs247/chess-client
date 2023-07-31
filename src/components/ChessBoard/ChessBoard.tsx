@@ -33,7 +33,11 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
         className={ styles.Square }
         style={{ backgroundColor }}
       >
-        <img src={ png } className={ styles.PieceImg } />
+        <img 
+          alt=""
+          src={ png } 
+          className={ styles.PieceImg } 
+        />
       </div>
     );
 

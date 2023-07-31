@@ -30,12 +30,12 @@ test("Snaphot without data", () => {
   const mockStore = configureStore();
   const store = mockStore(initialState);
 
-  const wrapper = render(
+  const view = render(
     <Provider store={store}>
       <Home />
     </Provider>
   );
-  expect(toJson(wrapper)).toMatchSnapshot();
+  expect(toJson(view)).toMatchSnapshot();
 });
 
 test("Snaphot with data", () => {
@@ -59,10 +59,10 @@ test("Snaphot with data", () => {
   const mockStore = configureStore();
   const store = mockStore(initialState);
 
-  const wrapper = render(
+  const view = render(
     <Provider store={store}>
       <Home />
     </Provider>
   );
-  expect(toJson(wrapper)).toMatchSnapshot();
+  expect(toJson(view)).toMatchSnapshot();
 });

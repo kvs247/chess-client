@@ -17,10 +17,10 @@ test("Snapshot", () => {
   const mockStore = configureStore();
   const store = mockStore(initialState);
 
-  const wrapper = render(
+  const view = render(
     <Provider store={store}>
       <ChessBoard fen={startingFEN} />
     </Provider>
   );
-  expect(toJson(wrapper)).toMatchSnapshot();
+  expect(toJson(view)).toMatchSnapshot();
 });
