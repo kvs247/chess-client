@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Draggable from "react-draggable";
 import { fenToPiecesArray } from "../../helpers/fenHelper/fenHelper";
 import piecePngs from "../../helpers/piecePngs";
 import styles from "./styles.module.scss";
@@ -33,18 +34,22 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
         className={ styles.Square }
         style={{ backgroundColor }}
       >
-        <img 
-          alt=""
-          src={ png } 
-          className={ styles.PieceImg } 
-        />
+        <Draggable
+          bounds="#board-wrapper"
+        >
+          <img 
+            alt=""
+            src={ png } 
+            className={ styles.PieceImg } 
+          />
+        </Draggable>
       </div>
     );
 
   }
 
   return (
-    <div className={styles.Wrapper}>
+    <div id="board-wrapper" className={styles.Wrapper}>
       {squares}
     </div>
   );
