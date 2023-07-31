@@ -1,23 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Snaphot with data 1`] = `
-<div>
+<div
+  style="background-color:grey"
+>
   <h1>
     Welcome to Chess Is Hard by Kyle
   </h1>
-  <p>
-    [{"ID":"0","Name":"Tester"}]
-  </p>
   <div
     class="Wrapper"
+    id="board-wrapper"
   >
     <div
       class="Square"
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-rook.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -25,8 +28,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-knight.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -34,8 +40,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-bishop.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -43,8 +52,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-queen.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -52,8 +64,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-king.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -61,8 +76,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-bishop.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -70,8 +88,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-knight.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -79,8 +100,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-rook.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -88,8 +112,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -97,8 +124,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -106,8 +136,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -115,8 +148,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -124,8 +160,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -133,8 +172,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -142,8 +184,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -151,8 +196,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -160,8 +208,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -169,8 +220,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -178,8 +232,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -187,8 +244,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -196,8 +256,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -205,8 +268,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -214,8 +280,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -223,8 +292,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -232,8 +304,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -241,8 +316,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -250,8 +328,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -259,8 +340,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -268,8 +352,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -277,8 +364,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -286,8 +376,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -295,8 +388,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -304,8 +400,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -313,8 +412,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -322,8 +424,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -331,8 +436,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -340,8 +448,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -349,8 +460,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -358,8 +472,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -367,8 +484,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -376,8 +496,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -385,8 +508,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -394,8 +520,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -403,8 +532,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -412,8 +544,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -421,8 +556,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -430,8 +568,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -439,8 +580,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -448,8 +592,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -457,8 +604,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -466,8 +616,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -475,8 +628,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -484,8 +640,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -493,8 +652,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -502,8 +664,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -511,8 +676,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -520,8 +688,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-rook.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -529,8 +700,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-knight.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -538,8 +712,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-bishop.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -547,8 +724,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-queen.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -556,8 +736,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-king.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -565,8 +748,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-bishop.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -574,8 +760,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-knight.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -583,8 +772,11 @@ exports[`Snaphot with data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-rook.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
   </div>
@@ -592,23 +784,26 @@ exports[`Snaphot with data 1`] = `
 `;
 
 exports[`Snaphot without data 1`] = `
-<div>
+<div
+  style="background-color:grey"
+>
   <h1>
     Welcome to Chess Is Hard by Kyle
   </h1>
-  <p>
-    []
-  </p>
   <div
     class="Wrapper"
+    id="board-wrapper"
   >
     <div
       class="Square"
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-rook.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -616,8 +811,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-knight.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -625,8 +823,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-bishop.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -634,8 +835,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-queen.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -643,8 +847,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-king.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -652,8 +859,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-bishop.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -661,8 +871,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-knight.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -670,8 +883,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-rook.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -679,8 +895,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -688,8 +907,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -697,8 +919,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -706,8 +931,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -715,8 +943,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -724,8 +955,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -733,8 +967,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -742,8 +979,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="black-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -751,8 +991,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -760,8 +1003,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -769,8 +1015,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -778,8 +1027,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -787,8 +1039,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -796,8 +1051,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -805,8 +1063,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -814,8 +1075,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -823,8 +1087,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -832,8 +1099,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -841,8 +1111,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -850,8 +1123,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -859,8 +1135,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -868,8 +1147,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -877,8 +1159,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -886,8 +1171,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -895,8 +1183,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -904,8 +1195,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -913,8 +1207,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -922,8 +1219,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -931,8 +1231,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -940,8 +1243,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -949,8 +1255,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -958,8 +1267,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -967,8 +1279,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -976,8 +1291,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -985,8 +1303,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -994,8 +1315,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1003,8 +1327,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1012,8 +1339,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1021,8 +1351,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1030,8 +1363,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src=""
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1039,8 +1375,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1048,8 +1387,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1057,8 +1399,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1066,8 +1411,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1075,8 +1423,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1084,8 +1435,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1093,8 +1447,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1102,8 +1459,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-pawn.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1111,8 +1471,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-rook.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1120,8 +1483,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-knight.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1129,8 +1495,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-bishop.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1138,8 +1507,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-queen.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1147,8 +1519,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-king.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1156,8 +1531,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-bishop.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1165,8 +1543,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:green"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-knight.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
     <div
@@ -1174,8 +1555,11 @@ exports[`Snaphot without data 1`] = `
       style="background-color:white"
     >
       <img
-        class="PieceImg"
+        alt=""
+        class="PieceImg react-draggable"
+        draggable="false"
         src="white-rook.png"
+        style="transform:translate(0px,0px)"
       />
     </div>
   </div>

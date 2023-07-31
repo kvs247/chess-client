@@ -1,6 +1,9 @@
 .Square {
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Wrapper {
@@ -9,6 +12,7 @@
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
+  position: relative;
 }
 
 .PieceImg {

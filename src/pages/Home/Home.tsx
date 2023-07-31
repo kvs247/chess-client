@@ -14,11 +14,8 @@ const Home: FC = () => {
   }  
 
   return (
-    <div>
+    <div style={{ backgroundColor: "grey" }}>
       <h1>Welcome to Chess Is Hard by Kyle</h1>
-      <p>
-        {JSON.stringify(response)}
-      </p>
       <ChessBoard 
         fen={startingFEN}
       />
