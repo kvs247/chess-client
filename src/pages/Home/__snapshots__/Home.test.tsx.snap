@@ -1,1567 +1,786 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Snaphot with data 1`] = `
-<div
-  style="background-color:grey"
->
-  <h1>
-    Welcome to Chess Is Hard by Kyle
-  </h1>
+exports[`renders 1`] = `
+<DocumentFragment>
   <div
-    class="Wrapper"
-    id="board-wrapper"
+    style="background-color: grey;"
   >
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-rook.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-knight.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-bishop.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-queen.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-king.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-bishop.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-knight.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-rook.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-rook.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-knight.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-bishop.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-queen.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-king.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-bishop.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-knight.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-rook.png"
-        style="transform:translate(0px,0px)"
-      />
+    <h1>
+      Welcome to Chess Is Hard by Kyle
+    </h1>
+    <div
+      class="Wrapper"
+      id="board-wrapper"
+    >
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-rook.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-knight.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-bishop.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-queen.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-king.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-bishop.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-knight.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-rook.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="black-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src=""
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-pawn.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-rook.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-knight.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-bishop.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-queen.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-king.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-bishop.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: green;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-knight.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
+      <div
+        class="Square"
+        style="background-color: white;"
+      >
+        <img
+          alt=""
+          class="PieceImg react-draggable"
+          draggable="false"
+          src="white-rook.png"
+          style="transform: translate(0px,0px);"
+        />
+      </div>
     </div>
   </div>
-</div>
-`;
-
-exports[`Snaphot without data 1`] = `
-<div
-  style="background-color:grey"
->
-  <h1>
-    Welcome to Chess Is Hard by Kyle
-  </h1>
-  <div
-    class="Wrapper"
-    id="board-wrapper"
-  >
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-rook.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-knight.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-bishop.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-queen.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-king.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-bishop.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-knight.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-rook.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="black-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src=""
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-pawn.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-rook.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-knight.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-bishop.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-queen.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-king.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-bishop.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:green"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-knight.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-    <div
-      class="Square"
-      style="background-color:white"
-    >
-      <img
-        alt=""
-        class="PieceImg react-draggable"
-        draggable="false"
-        src="white-rook.png"
-        style="transform:translate(0px,0px)"
-      />
-    </div>
-  </div>
-</div>
+</DocumentFragment>
 `;

@@ -6,12 +6,12 @@ import ChessBoard from "../../components/ChessBoard/ChessBoard";
 const startingFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
 
 const Home: FC = () => {
-  const { data, isError, isLoading } = useGetTestQuery(null);
+  // const { data, isError, isLoading } = useGetTestQuery(null);
 
-  let response: TestData[] | undefined;  
-  if (!isError && !isLoading && data !== undefined) {
-    response = data.response
-  }  
+  // let response: TestData[] | undefined;  
+  // if (!isError && !isLoading && data !== undefined) {
+  //   response = data.response
+  // }  
 
   return (
     <div style={{ backgroundColor: "grey" }}>
