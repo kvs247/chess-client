@@ -1,8 +1,10 @@
 import { FC, useState, useEffect } from "react";
 import Draggable from "react-draggable";
-import { fenToPiecesArray } from "../../helpers/fenHelper/fenHelper";
+import { moveApi } from "../../store/move/api";
+import { fenToPieceArray } from "../../helpers/fenHelper/fenHelper";
 import piecePngs from "../../helpers/piecePngs";
 import styles from "./styles.module.scss";
+import startingFEN from "../../startingFEN";
 
 const lightSquare = "white";
 const darkSquare = "green";
@@ -16,9 +18,11 @@ for (let i = 0; i < 64; i++) {
   positionsInitialState[i] = { x: 0, y: 0 };
 }
 
-const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
-  const piecesArray = fenToPiecesArray(fen);
+const  ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
+  const [currentFen, setCurrentFen] = useState(fen);
+  const piecesArray = fenToPieceArray(currentFen);
   const [positions, setPositions] = useState(positionsInitialState);
+  const [triggerProcessMove, triggerProcessMoveResponse] = moveApi.endpoints.processMove.useMutation();
 
   // Create squares
   const squareLength = (window.innerHeight * (90 / 100)) / 8;
@@ -35,19 +39,25 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
     const pieceType = piecesArray[i];
     const png = piecePngs[pieceType] ?? "";
 
+    const getNewFEN = async (fen: string, fromIndex: number, toIndex: number): Promise<string> => {
+      console.log(fromIndex, toIndex)
+      const processMoveResult: any = await triggerProcessMove({ fen, fromIndex, toIndex, });
+      return processMoveResult?.response ?? "";
+    };
+
     const onStartDrag = (): void => {
       setPositions(positionsInitialState);
     };
 
-    const onStopDrag = (i: number) => {
+    // @ts-ignore
+    const onStopDrag = async (i: number): any => {
       const deltaX = positions[i].x;
       const deltaY = positions[i].y;
 
       let fromIndex = i;
       let toIndex = i + Math.round(deltaX / squareLength) + (8 * Math.round(deltaY / squareLength));
 
-      console.log("fromIndex: ", fromIndex);
-      console.log("toIndex: ", toIndex);
+      await getNewFEN(startingFEN, fromIndex, toIndex);
 
       // illegal move
       // const newPositions = { ...positions };
@@ -90,6 +100,12 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
   useEffect(() => {
     setPositions(positionsInitialState);
   }, []);
+
+  useEffect(() => {
+    if (triggerProcessMoveResponse.data?.response) {
+      setCurrentFen(triggerProcessMoveResponse.data.response);
+    }
+  }, [triggerProcessMoveResponse]);
 
   return (
     <div id="board-wrapper" className={styles.Wrapper}>

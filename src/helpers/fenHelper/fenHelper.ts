@@ -23,9 +23,9 @@ export const parseFEN = (fen: string): ParsedFEN => {
   };
 };
 
-export const fenToPiecesArray = (fen: string): string[] => {
+export const fenToPieceArray = (fen: string): Array<string | null> => {
   const parsedFEN = parseFEN(fen);
-  const piecesArray = parsedFEN.piecePlacement
+  const pieceArray = parsedFEN.piecePlacement
     .split("")
     .filter(char => char !== "/")
     .map((char) => {
@@ -36,5 +36,5 @@ export const fenToPiecesArray = (fen: string): string[] => {
       return char;
     }).flat();  
 
-  return piecesArray;
+  return pieceArray;
 };
