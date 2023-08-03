@@ -1,5 +1,5 @@
 import startingFEN from "../../startingFEN";
-import { isNumeric, parseFEN, fenToPiecesArray } from "./fenHelper";
+import { isNumeric, parseFEN, fenToPieceArray } from "./fenHelper";
 
 
 test("isNumeric", () => {
@@ -30,5 +30,5 @@ test("fenToPiecesArray", () => {
     Array(8).fill("P"),
     "R", "N", "B", "Q", "K", "B", "N", "R",
   ].flat();
-  expect(fenToPiecesArray(startingFEN)).toEqual(startingPiecesArray);
+  expect(fenToPieceArray(startingFEN)).toEqual(startingPiecesArray);
 });
