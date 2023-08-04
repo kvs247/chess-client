@@ -5,5 +5,5 @@ export interface MoveRequest {
 }
 
 export interface MoveResponse {
-  response: string;
+  newFen: string;
 }

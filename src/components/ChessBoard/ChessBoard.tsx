@@ -1,10 +1,10 @@
 import { FC, useState, useEffect } from "react";
 import Draggable from "react-draggable";
+import { gamesApi } from "../../store/games/api";
 import { moveApi } from "../../store/move/api";
 import { fenToPieceArray } from "../../helpers/fenHelper/fenHelper";
 import piecePngs from "../../helpers/piecePngs";
 import styles from "./styles.module.scss";
-import startingFEN from "../../startingFEN";
 
 const lightSquare = "white";
 const darkSquare = "green";
@@ -19,10 +19,14 @@ for (let i = 0; i < 64; i++) {
 }
 
 const  ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
+  const gameId = "0";
   const [currentFen, setCurrentFen] = useState(fen);
   const piecesArray = fenToPieceArray(currentFen);
   const [positions, setPositions] = useState(positionsInitialState);
-  const [triggerProcessMove, triggerProcessMoveResponse] = moveApi.endpoints.processMove.useMutation();
+  const [triggerGetGameByIdQuery, triggerGetGameByIdQueryResponse] =
+    gamesApi.endpoints.getGameById.useLazyQuery();
+  const [triggerProcessMove, triggerProcessMoveResponse] = 
+    moveApi.endpoints.processMove.useMutation();
 
   // Create squares
   const squareLength = (window.innerHeight * (90 / 100)) / 8;
@@ -39,12 +43,6 @@ const  ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
     const pieceType = piecesArray[i];
     const png = piecePngs[pieceType] ?? "";
 
-    const getNewFEN = async (fen: string, fromIndex: number, toIndex: number): Promise<string> => {
-      console.log(fromIndex, toIndex)
-      const processMoveResult: any = await triggerProcessMove({ fen, fromIndex, toIndex, });
-      return processMoveResult?.response ?? "";
-    };
-
     const onStartDrag = (): void => {
       setPositions(positionsInitialState);
     };
@@ -54,15 +52,19 @@ const  ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
       const deltaX = positions[i].x;
       const deltaY = positions[i].y;
 
-      let fromIndex = i;
-      let toIndex = i + Math.round(deltaX / squareLength) + (8 * Math.round(deltaY / squareLength));
+      const fromIndex = i;
+      const toIndex = i + Math.round(deltaX / squareLength) + (8 * Math.round(deltaY / squareLength));
 
-      await getNewFEN(startingFEN, fromIndex, toIndex);
+      const payload = {
+        fen: currentFen,
+        fromIndex,
+        toIndex,
+      };
+      const response: any = await triggerProcessMove(payload);
+      const newFen = response.data.newFen;
+      setCurrentFen(newFen);
 
-      // illegal move
-      // const newPositions = { ...positions };
-      // newPositions[i] = { x: 0, y: 0 };
-      // setPositions(newPositions);
+      // triggerGetGameByIdQuery(gameId);
     };
 
     const handleDrag = (e: any, ui: any, i: number): void => {
@@ -99,13 +101,23 @@ const  ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
 
   useEffect(() => {
     setPositions(positionsInitialState);
+    triggerGetGameByIdQuery(gameId);
+    console.log("triggerGetGameByIdQueryResponse", triggerGetGameByIdQueryResponse)
+    triggerProcessMove({ fen, fromIndex: 0, toIndex: 0,})
   }, []);
 
   useEffect(() => {
-    if (triggerProcessMoveResponse.data?.response) {
-      setCurrentFen(triggerProcessMoveResponse.data.response);
+    if (triggerProcessMoveResponse.data?.newFen) {
+      setCurrentFen(triggerProcessMoveResponse.data.newFen);
     }
   }, [triggerProcessMoveResponse]);
+
+  useEffect(() => {
+    if (triggerGetGameByIdQueryResponse?.data?.fen) {
+      console.log("triggerGetGameByIdQueryResponse.data.fen", triggerGetGameByIdQueryResponse.data.fen)
+      setCurrentFen(triggerGetGameByIdQueryResponse.data.fen);
+    }
+  }, [triggerGetGameByIdQuery]);
 
   return (
     <div id="board-wrapper" className={styles.Wrapper}>
