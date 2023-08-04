@@ -12,6 +12,7 @@ import {
 import storage from "redux-persist/lib/storage";
 import { testApi } from "./test/api";
 import { moveApi } from "./move/api";
+import { gamesApi } from "./games/api";
 
 const persistConfig = {
   key: "root",
@@ -22,6 +23,7 @@ const persistConfig = {
 const rootReducer = combineReducers({
   [testApi.reducerPath]: testApi.reducer,
   [moveApi.reducerPath]: moveApi.reducer,
+  [gamesApi.reducerPath]: gamesApi.reducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
@@ -36,6 +38,7 @@ const store = configureStore({
     }).concat(
       testApi.middleware,
       moveApi.middleware,
+      gamesApi.middleware,
     ),
 });
 
