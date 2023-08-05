@@ -62,6 +62,13 @@ const  ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
       };
       const response: any = await triggerProcessMove(payload);
       const newFen = response.data.newFen;
+      if (newFen === currentFen) {
+        setPositions((positions) => {
+          const newPositions = { ...positions };
+          newPositions[i] = { x: 0, y: 0 };
+          return newPositions;
+        });
+      }
       setCurrentFen(newFen);
 
       // triggerGetGameByIdQuery(gameId);
