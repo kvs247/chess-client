@@ -5,6 +5,7 @@ import { Game } from "./types";
 export const gamesApi = createApi({
   reducerPath: "gamesApi",
   baseQuery,
+  tagTypes: ["Games"],
   endpoints: (builder) => ({
     getGameById: builder.query<Game, string>({
       query: (gameId) => {
@@ -13,6 +14,7 @@ export const gamesApi = createApi({
           method: "GET",
         };
       },
+      providesTags: ["Games"],
     }),
   }),  
 });

@@ -10,7 +10,6 @@ import {
   REGISTER,
 } from "redux-persist";
 import storage from "redux-persist/lib/storage";
-import { testApi } from "./test/api";
 import { moveApi } from "./move/api";
 import { gamesApi } from "./games/api";
 
@@ -21,7 +20,6 @@ const persistConfig = {
 };
 
 const rootReducer = combineReducers({
-  [testApi.reducerPath]: testApi.reducer,
   [moveApi.reducerPath]: moveApi.reducer,
   [gamesApi.reducerPath]: gamesApi.reducer,
 });
@@ -36,7 +34,6 @@ const store = configureStore({
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
     }).concat(
-      testApi.middleware,
       moveApi.middleware,
       gamesApi.middleware,
     ),
