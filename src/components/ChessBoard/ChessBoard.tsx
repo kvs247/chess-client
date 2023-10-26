@@ -17,7 +17,7 @@ for (let i = 0; i < 64; i++) {
   positionsInitialState[i] = { x: 0, y: 0 };
 }
 
-const  ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
+const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
   const gameId = "0";
   const [currentFen, setCurrentFen] = useState(fen);
   const piecesArray = fenToPieceArray(currentFen);
