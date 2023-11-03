@@ -23,7 +23,12 @@ const Home: FC = () => {
 
   return (
     <div className={styles.Wrapper}>
-      <button onClick={() => triggerResetGameById(GAME_ID)}>reset</button>
+      <button 
+        className={styles.Button}
+        onClick={() => triggerResetGameById(GAME_ID)}
+      >
+        reset
+      </button>
       <div className={styles.ChessBoardWrapper}>
         {fen == "" ? null : <ChessBoard fen={fen} />}
         {/* <ChessBoard fen={fen} /> */}

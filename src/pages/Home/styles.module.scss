@@ -1,6 +1,13 @@
 .Wrapper {
   background-color: grey;
   height: 100vh;
+  overflow: hidden;
+}
+
+.Button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .ChessBoardWrapper {
