@@ -1,1 +1,1 @@
-- installing of enzyme-adapter-react-16
+1. Login page
