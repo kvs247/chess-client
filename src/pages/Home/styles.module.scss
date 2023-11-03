@@ -1,0 +1,17 @@
+.Wrapper {
+  background-color: grey;
+}
+
+.Button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.ChessBoardWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: calc(10vh / 2);
+  padding-bottom: calc(10vh / 2);
+}
+

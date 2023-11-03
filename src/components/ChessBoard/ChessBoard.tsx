@@ -1,6 +1,5 @@
 import { FC, useState, useEffect } from "react";
 import Draggable from "react-draggable";
-import { gamesApi } from "../../store/games/api";
 import { moveApi } from "../../store/move/api";
 import { fenToPieceArray } from "../../helpers/fenHelper/fenHelper";
 import piecePngs from "../../helpers/piecePngs";
@@ -18,13 +17,11 @@ for (let i = 0; i < 64; i++) {
   positionsInitialState[i] = { x: 0, y: 0 };
 }
 
-const  ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
+const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
   const gameId = "0";
   const [currentFen, setCurrentFen] = useState(fen);
   const piecesArray = fenToPieceArray(currentFen);
   const [positions, setPositions] = useState(positionsInitialState);
-  const [triggerGetGameByIdQuery, triggerGetGameByIdQueryResponse] =
-    gamesApi.endpoints.getGameById.useLazyQuery();
   const [triggerProcessMove, triggerProcessMoveResponse] = 
     moveApi.endpoints.processMove.useMutation();
 
@@ -62,9 +59,14 @@ const  ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
       };
       const response: any = await triggerProcessMove(payload);
       const newFen = response.data.newFen;
+      if (newFen === currentFen) {
+        setPositions((positions) => {
+          const newPositions = { ...positions };
+          newPositions[i] = { x: 0, y: 0 };
+          return newPositions;
+        });
+      }
       setCurrentFen(newFen);
-
-      // triggerGetGameByIdQuery(gameId);
     };
 
     const handleDrag = (e: any, ui: any, i: number): void => {
@@ -100,24 +102,10 @@ const  ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
   }
 
   useEffect(() => {
-    setPositions(positionsInitialState);
-    triggerGetGameByIdQuery(gameId);
-    console.log("triggerGetGameByIdQueryResponse", triggerGetGameByIdQueryResponse)
-    triggerProcessMove({ fen, fromIndex: 0, toIndex: 0,})
-  }, []);
-
-  useEffect(() => {
     if (triggerProcessMoveResponse.data?.newFen) {
       setCurrentFen(triggerProcessMoveResponse.data.newFen);
     }
   }, [triggerProcessMoveResponse]);
-
-  useEffect(() => {
-    if (triggerGetGameByIdQueryResponse?.data?.fen) {
-      console.log("triggerGetGameByIdQueryResponse.data.fen", triggerGetGameByIdQueryResponse.data.fen)
-      setCurrentFen(triggerGetGameByIdQueryResponse.data.fen);
-    }
-  }, [triggerGetGameByIdQuery]);
 
   return (
     <div id="board-wrapper" className={styles.Wrapper}>

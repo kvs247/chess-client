@@ -6,22 +6,7 @@ import Home from "./Home";
 afterEach(cleanup);
 
 it("renders", () => {
-  const initialState = {
-    testApi: {
-      queries: {
-        "getTest(null)": {
-          status: "fulfilled",
-          endpointName: "getTest",
-          requestId: "absdgvas7dv8gsa",
-          originalArgs: null,
-          startedTimestamp: 0,
-          data: { response: [] },
-          fulfilledTimestamp: 1,
-        }, 
-      },
-    }, 
-  };
-
+  const initialState = {};
   const mockStore = configureStore();
   const store = mockStore(initialState);
 
