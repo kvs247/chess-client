@@ -22,7 +22,7 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
   const [currentFen, setCurrentFen] = useState(fen);
   const piecesArray = fenToPieceArray(currentFen);
   const [positions, setPositions] = useState(positionsInitialState);
-  const [triggerProcessMove, triggerProcessMoveResponse] = 
+  const [triggerProcessMove, triggerProcessMoveResponse] =
     moveApi.endpoints.processMove.useMutation();
 
   // Create squares
@@ -33,8 +33,8 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
 
     const backgroundColor = (
       (((row % 2 === 0) && (i % 2 === 0)) ||
-        ((row % 2 === 1) && (i % 2) === 1)) 
-          ? lightSquare : darkSquare
+        ((row % 2 === 1) && (i % 2) === 1))
+        ? lightSquare : darkSquare
     );
 
     const pieceType = piecesArray[i];
@@ -76,11 +76,19 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
       setPositions(newPositions);
     };
 
+    const setCursorToGrab = (): void => {
+      document.body.style.cursor = "grab";
+    };
+
+    const setCursorToGrabbing = (): void => {
+      document.body.style.cursor = "grabbing";
+    };
+
     squares.push(
       <div
         key={i}
         className={styles.Square}
-        style={{backgroundColor}}
+        style={{ backgroundColor }}
       >
         <Draggable
           bounds="#board-wrapper"
@@ -89,11 +97,13 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
           onDrag={(e, ui) => handleDrag(e, ui, i)}
           position={positions[i]}
         >
-          <img 
+          <img
             alt=""
             draggable="false"
-            src={png} 
-            className={styles.PieceImg} 
+            src={png}
+            className={styles.PieceImg}
+            onMouseDown={setCursorToGrabbing}
+            onMouseUp={setCursorToGrab}
           />
         </Draggable>
       </div>
