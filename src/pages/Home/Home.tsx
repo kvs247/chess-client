@@ -3,36 +3,36 @@ import { Button } from "antd";
 import { gamesApi } from "../../store/games/api";
 import ChessBoard from "../../components/ChessBoard/ChessBoard";
 import styles from "./styles.module.scss";
+import { useGetGameByIdQuery } from "../../store/games/api";
 
 const startingFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
 
 const GAME_ID = "0";
 
 const Home: FC = () => {
-  const [triggerGetGameById, getGameByIdResult] = gamesApi.endpoints.getGameById.useLazyQuery();
+  const { data, isLoading } = useGetGameByIdQuery(GAME_ID);
+  const [fen, setFen] = useState(data?.game?.fen ?? "");
   const [triggerResetGameById] = gamesApi.endpoints.resetGameById.useMutation();
-  const fen = getGameByIdResult?.data?.game.fen ?? "";
+
+  const onClickReset = (): void => {
+    triggerResetGameById(GAME_ID);
+    setFen(startingFEN);
+  };
 
   useEffect(() => {
-    const fetchGame = async (): Promise<void> => {
-      await triggerGetGameById(GAME_ID);
-    };
-    fetchGame().catch((error) => {
-      console.log("error while getting game data:\n", error);
-    });
-  });
+    setFen(data?.game?.fen ?? "");
+  }, [isLoading]);
 
   return (
     <div className={styles.Wrapper}>
-      <Button 
+      <Button
         className={styles.Button}
-        onClick={() => triggerResetGameById(GAME_ID)}
+        onClick={onClickReset}
       >
         reset
       </Button>
       <div className={styles.ChessBoardWrapper}>
-        {fen === "" ? null : <ChessBoard fen={fen} />}
-        {/* <ChessBoard fen={fen} /> */}
+        {fen === "" ? null : <ChessBoard fen={fen} setFen={setFen} />}
       </div>
     </div>
   );

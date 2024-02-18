@@ -23,6 +23,9 @@ export const gamesApi = createApi({
           method: "POST",
         };
       },
+      invalidatesTags: ["Games"],
     }),
-  }),  
+  }),
 });
+
+export const { useGetGameByIdQuery } = gamesApi;

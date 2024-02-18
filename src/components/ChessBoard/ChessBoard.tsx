@@ -1,15 +1,17 @@
-import { FC, useState, useEffect } from "react";
+import { FC, useState, useEffect, Dispatch, SetStateAction } from "react";
 import Draggable from "react-draggable";
 import { moveApi } from "../../store/move/api";
 import { fenToPieceArray } from "../../helpers/fenHelper/fenHelper";
 import piecePngs from "../../helpers/piecePngs";
 import styles from "./styles.module.scss";
+import startingFEN from "../../startingFEN";
 
 const lightSquare = "white";
 const darkSquare = "green";
 
 interface ChessBoardParams {
   fen: string;
+  setFen: Dispatch<SetStateAction<string>>;
 }
 
 const positionsInitialState = {};
@@ -17,10 +19,8 @@ for (let i = 0; i < 64; i++) {
   positionsInitialState[i] = { x: 0, y: 0 };
 }
 
-const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
-  const gameId = "0";
-  const [currentFen, setCurrentFen] = useState(fen);
-  const piecesArray = fenToPieceArray(currentFen);
+const ChessBoard: FC<ChessBoardParams> = ({ fen, setFen }) => {
+  const piecesArray = fenToPieceArray(fen);
   const [positions, setPositions] = useState(positionsInitialState);
   const [triggerProcessMove, triggerProcessMoveResponse] =
     moveApi.endpoints.processMove.useMutation();
@@ -53,20 +53,20 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
       const toIndex = i + Math.round(deltaX / squareLength) + (8 * Math.round(deltaY / squareLength));
 
       const payload = {
-        fen: currentFen,
+        fen,
         fromIndex,
         toIndex,
       };
       const response: any = await triggerProcessMove(payload);
       const newFen = response.data.newFen;
-      if (newFen === currentFen) {
+      if (newFen === fen) {
         setPositions((positions) => {
           const newPositions = { ...positions };
           newPositions[i] = { x: 0, y: 0 };
           return newPositions;
         });
       }
-      setCurrentFen(newFen);
+      setFen(newFen);
     };
 
     const handleDrag = (e: any, ui: any, i: number): void => {
@@ -113,9 +113,15 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen }) => {
 
   useEffect(() => {
     if (triggerProcessMoveResponse.data?.newFen) {
-      setCurrentFen(triggerProcessMoveResponse.data.newFen);
+      setFen(triggerProcessMoveResponse.data.newFen);
     }
   }, [triggerProcessMoveResponse]);
+
+  useEffect(() => {
+    if (fen === startingFEN) {
+      setPositions(positionsInitialState);
+    }
+  }, [fen]);
 
   return (
     <div id="board-wrapper" className={styles.Wrapper}>
