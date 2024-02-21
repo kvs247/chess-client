@@ -13,7 +13,7 @@ it("renders", () => {
 
   const { asFragment } = render(
     <Provider store={store}>
-      <ChessBoard fen={startingFEN} setFen={jest.fn()} />
+      <ChessBoard fen={startingFEN} setFen={jest.fn()} boardColor={"green"} />
     </Provider>
   );
   expect(asFragment()).toMatchSnapshot();

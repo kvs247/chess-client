@@ -7,11 +7,11 @@ import styles from "./styles.module.scss";
 import startingFEN from "../../startingFEN";
 
 const lightSquare = "white";
-const darkSquare = "green";
 
 interface ChessBoardParams {
   fen: string;
   setFen: Dispatch<SetStateAction<string>>;
+  boardColor: string;
 }
 
 const positionsInitialState = {};
@@ -19,7 +19,7 @@ for (let i = 0; i < 64; i++) {
   positionsInitialState[i] = { x: 0, y: 0 };
 }
 
-const ChessBoard: FC<ChessBoardParams> = ({ fen, setFen }) => {
+const ChessBoard: FC<ChessBoardParams> = ({ fen, setFen, boardColor }) => {
   const piecesArray = fenToPieceArray(fen);
   const [positions, setPositions] = useState(positionsInitialState);
   const [triggerProcessMove, triggerProcessMoveResponse] =
@@ -34,7 +34,7 @@ const ChessBoard: FC<ChessBoardParams> = ({ fen, setFen }) => {
     const backgroundColor = (
       (((row % 2 === 0) && (i % 2 === 0)) ||
         ((row % 2 === 1) && (i % 2) === 1))
-        ? lightSquare : darkSquare
+        ? lightSquare : boardColor
     );
 
     const pieceType = piecesArray[i];
